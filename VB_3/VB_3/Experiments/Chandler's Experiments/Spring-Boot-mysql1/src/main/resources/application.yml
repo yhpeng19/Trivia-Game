@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.cj.jdbc.Driver
+    url: coms-309-bv-3.misc.iastate.edu           #initially did this on a local machine database, issues connecting with the 309 databases
+    username: cjhagen1
+    password: Ch@ndl3r112358
+  jpa:
+    hibernate.ddl-auto: update
+    generate-ddl: true
+    show-sql: true

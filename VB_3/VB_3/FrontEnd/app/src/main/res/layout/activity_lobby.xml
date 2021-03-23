@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    tools:context=".player.Lobby">
+
+    <TextView
+        android:id="@+id/lobbyName_tv"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/all_players_tv"
+        android:layout_width="match_parent"
+        android:layout_height="395dp"
+        android:text="TextView"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/ready_button"
+        android:layout_width="match_parent"
+        android:layout_height="88dp"
+        android:text="Ready Up"
+        android:textSize="24sp" />
+
+</LinearLayout>
+
+

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".player.GameMechanics">
+
+<TextView
+    android:id="@+id/display_text"
+    android:layout_width="313dp"
+    android:layout_height="150dp"
+    android:layout_marginStart="49dp"
+    android:layout_marginLeft="49dp"
+    android:layout_marginTop="31dp"
+    android:layout_marginEnd="49dp"
+    android:layout_marginRight="49dp"
+    android:layout_marginBottom="360dp"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.857" />
+
+<Button
+    android:id="@+id/start_text"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginStart="0dp"
+    android:layout_marginLeft="0dp"
+    app:layout_constraintStart_toStartOf="parent"
+    android:background="@color/colorPrimary"
+    android:text="@string/start"
+    android:alpha="1"
+    tools:layout_editor_absoluteY="230dp" />
+
+<TextView
+    android:id="@+id/display_score"
+    android:layout_width="100dp"
+    android:layout_height="30dp"
+    android:layout_marginStart="49dp"
+    android:layout_marginLeft="49dp"
+    android:layout_marginTop="130dp"
+    android:layout_marginEnd="49dp"
+    android:layout_marginRight="49dp"
+    android:layout_marginBottom="80dp"
+    app:layout_constraintBottom_toTopOf="@+id/display_text"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.565" />
+
+<TextView
+    android:id="@+id/display_time"
+    android:layout_width="100dp"
+    android:layout_height="30dp"
+    android:layout_marginStart="49dp"
+    android:layout_marginLeft="49dp"
+    android:layout_marginTop="130dp"
+    android:layout_marginEnd="49dp"
+    android:layout_marginRight="49dp"
+    android:layout_marginBottom="80dp"
+    app:layout_constraintBottom_toTopOf="@+id/display_text"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.037"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintVertical_bias="0.565" />
+
+<Button
+    android:id="@+id/answer2_button"
+    android:layout_width="169dp"
+    android:layout_height="60dp"
+    android:layout_marginStart="210dp"
+    android:layout_marginLeft="210dp"
+    android:layout_marginTop="480dp"
+    android:layout_marginEnd="10dp"
+    android:layout_marginRight="10dp"
+    android:layout_marginBottom="8dp"
+    android:background="@color/colorPrimary"
+    app:layout_constraintBottom_toTopOf="@+id/answer1_button"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<Button
+    android:id="@+id/answer1_button"
+    android:layout_width="169dp"
+    android:layout_height="60dp"
+    android:layout_marginStart="148dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="480dp"
+    android:layout_marginEnd="210dp"
+    android:layout_marginRight="210dp"
+    android:layout_marginBottom="8dp"
+    android:background="@color/colorPrimary"
+    app:layout_constraintBottom_toTopOf="@+id/answer2_button"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<Button
+    android:id="@+id/answer4_button"
+    android:layout_width="169dp"
+    android:layout_height="60dp"
+    android:layout_marginStart="210dp"
+    android:layout_marginLeft="210dp"
+    android:layout_marginTop="580dp"
+    android:layout_marginEnd="8dp"
+    android:layout_marginRight="8dp"
+    android:layout_marginBottom="8dp"
+    android:background="@color/colorPrimary"
+    app:layout_constraintBottom_toTopOf="@+id/answer3_button"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="0.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+<Button
+    android:id="@+id/answer3_button"
+    android:layout_width="169dp"
+    android:layout_height="60dp"
+    android:layout_marginStart="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="580dp"
+    android:layout_marginEnd="210dp"
+    android:layout_marginRight="210dp"
+    android:layout_marginBottom="8dp"
+    android:background="@color/colorPrimary"
+    app:layout_constraintBottom_toTopOf="@+id/answer1_button"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintHorizontal_bias="1.0"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent" />
+
+
+
+</android.support.constraint.ConstraintLayout>

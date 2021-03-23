@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".player.Result">
+
+    <TextView
+        android:id="@+id/win_lose_text"
+        android:layout_width="match_parent"
+        android:layout_height="148dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="36sp" />
+
+    <TextView
+        android:id="@+id/users_scores_text"
+        android:layout_width="match_parent"
+        android:layout_height="299dp"
+        android:gravity="center"
+        android:text="TextView"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/rematch_button"
+        android:layout_width="match_parent"
+        android:layout_height="67dp"
+        android:text="@string/Rematch" />
+
+    <Button
+        android:id="@+id/exit_button"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:text="@string/Exit" />
+</LinearLayout>

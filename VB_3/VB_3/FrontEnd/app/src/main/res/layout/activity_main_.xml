@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".player.Main_Activity"
+    android:id="@+id/drawerlayout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/singlePlayer_button"
+            android:layout_width="225dp"
+            android:layout_height="75dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="200dp"
+            android:background="@color/colorPrimary"
+            android:text="@string/Single_Player" />
+
+        <Button
+            android:id="@+id/multiplayer_button"
+            android:layout_width="225dp"
+            android:layout_height="75dp"
+            android:layout_marginTop="100dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/colorPrimary"
+            android:text="@string/Multilayer" />
+
+    </LinearLayout>
+
+    <android.support.design.widget.NavigationView
+        android:id="@+id/navigationView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="left"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/negavition_view_head"
+        app:menu="@layout/negavition_item">
+    </android.support.design.widget.NavigationView>
+
+</android.support.v4.widget.DrawerLayout>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/page_title"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:gravity="center"
+        android:text="Create a New Lobby"
+        android:textSize="36sp"
+        android:typeface="normal" />
+
+    <TextView
+        android:id="@+id/lobby_name_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Game ID:"
+        android:textSize="18sp"
+        tools:text=" Lobby Name:  (Up to 32 Characters)" />
+
+    <TextView
+        android:id="@+id/lobby_text"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/category_text"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="Category:"
+        android:textSize="18sp"
+        tools:text="Category:" />
+
+    <Spinner
+        android:id="@+id/cat_spinner"
+        android:layout_width="match_parent"
+        android:layout_height="37dp" />
+
+    <Switch
+        android:id="@+id/lobby_switch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Lobby: Private"
+        android:textSize="24sp" />
+
+    <Switch
+        android:id="@+id/chat_switch"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Chat: Enabled"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/create_lobby_button"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:text="Create Lobby" />
+
+</LinearLayout>
+

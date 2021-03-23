@@ -1,0 +1,15 @@
+Place to comment on issues or observations with the project so far.
+    
+    - SpringBoot_Project is a project that uses dependency injections and using 
+      GET, POST, DELETE on Postman to show how interaction between the front end 
+      Android application and the backend spring boot.
+      
+    - Spring-Boot-mysql1 is a project that uses jdbc and jpa to connect to the
+      mysql database. It worked on my local machine, but I did have issues 
+      connecting with the one given to us.
+      
+      I split the learning into 2 classes as when I tried to work on connecting
+      the request portion with the sql portion, I ran into issues codewise and
+      visualizing what was happening.
+      
+      Fixed Git issue. Global key issue.
