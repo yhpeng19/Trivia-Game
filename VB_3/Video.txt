@@ -1,0 +1,25 @@
+User can only register as a player
+Log out will send request to server and delete the token
+
+User type:
+player:
+	
+1.Playing game
+- Multi_Player(not yet done) & Single_player mode
+- three category: math/language/geology(will fixed by Nov 5)
+- 10 question randomly picked received from server 
+- Timer: 5 secs per question, if reached, jump to next question
+- Score
+
+2.Propose question(Done)
+
+admin:
+
+1.Manage account(will finished this week)
+
+2.Approve question(partly done, will finished this week)
+: Detail Button will be implemented this week.
+
+spectator: has a main home_page now, but temporarily no function implemented(match viewing should be finished this week).
+
+
